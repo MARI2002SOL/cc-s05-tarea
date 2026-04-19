@@ -36,7 +36,7 @@ def get_client(uri):
 
 try:
     client = get_client(mongo_uri)
-    db = client["sample_restaurants"]
+    db = client["sample_airbnb"]
     col_restaurants = db["restaurants"]
     col_neighborhoods = db["neighborhoods"]
     # Test de conexión
